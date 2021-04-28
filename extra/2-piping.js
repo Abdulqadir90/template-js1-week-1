@@ -27,7 +27,8 @@ function multiply(num1, num2) {
 
 }
 
-function format() {
+function format(num) {
+    return '£' + num;
 
 }
 
