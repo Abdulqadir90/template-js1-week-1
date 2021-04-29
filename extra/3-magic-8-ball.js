@@ -47,6 +47,11 @@
 // and return the answer.
 function shakeBall() {
   //Write your code in here
+  let random = Math.floor(Math.random() * 20);
+  console.log("The ball has SHAKEN")
+
+  return random;
+  
 }
 
 /* 
